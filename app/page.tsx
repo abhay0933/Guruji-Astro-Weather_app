@@ -49,7 +49,7 @@ const Page = () => {
   const [location, setLocation] = useState('');
   const [error, setError] = useState("");
 
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=3497073a1a0d4e019c4162529243005&q=${location}&days=7&aqi=yes&alerts=yes`;
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=3497073a1a0d4e019c4162529243005&q=${location}&days=7&aqi=yes&alerts=yes`;
 
   const searchPlaces = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
