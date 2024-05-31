@@ -1,7 +1,7 @@
 "use client";
 
 import Input from "./components/Input";
-import backgroundimg from './utils/photo-1592210454359-9043f067919b.avif'
+import backgroundimg from './utils/bg.avif'
 import React, { useState } from "react";
 import Current from "./components/Current";
 import Details from "./components/Details";

@@ -26,7 +26,7 @@ const ForeCast = ({data}: WeeklyForecast) => {
     <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-8 w-full'>
       {
         data.forecast.forecastday.map((day, index) => (
-          <div key={index} className='bg-white/70 p-2 shadow-xl text-center rounded-lg flex flex-col items-center custom-shadow'> 
+          <div key={index} className='bg-white/50 p-2 shadow-xl text-center rounded-lg flex flex-col items-center custom-shadow'> 
             <p>{new Date(day.date).toLocaleString("en-US", {weekday: 'short'})}</p>
             <img src={day.day.condition.icon} />
             <div> 
